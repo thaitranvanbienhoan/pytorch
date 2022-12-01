@@ -126,7 +126,7 @@ assert torch.allclose(y, x.sin())
 Right now, we support the following transforms:
 - `grad`, `vjp`, `jvp`,
 - `jacrev`, `jacfwd`, `hessian`
-- `vmap`
+- `vmap`, `fmap`, 
 
 Furthermore, we have some utilities for working with PyTorch modules.
 - `make_functional(model)`
